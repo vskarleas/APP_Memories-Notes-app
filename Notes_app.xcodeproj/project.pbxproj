@@ -13,6 +13,9 @@
 		E28764D42613AF8800E8BFCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E28764D22613AF8800E8BFCF /* Main.storyboard */; };
 		E28764D62613AF8A00E8BFCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E28764D52613AF8A00E8BFCF /* Assets.xcassets */; };
 		E28764D92613AF8A00E8BFCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E28764D72613AF8A00E8BFCF /* LaunchScreen.storyboard */; };
+		E28764E22613AF9900E8BFCF /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28764E12613AF9900E8BFCF /* NoteViewController.swift */; };
+		E28764E52613AFA600E8BFCF /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28764E42613AFA600E8BFCF /* EntryViewController.swift */; };
+		E2FD74612613C012006F214C /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD74602613C012006F214C /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		E28764D52613AF8A00E8BFCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E28764D82613AF8A00E8BFCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E28764DA2613AF8A00E8BFCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E28764E12613AF9900E8BFCF /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		E28764E42613AFA600E8BFCF /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		E2FD74602613C012006F214C /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				E28764D52613AF8A00E8BFCF /* Assets.xcassets */,
 				E28764D72613AF8A00E8BFCF /* LaunchScreen.storyboard */,
 				E28764DA2613AF8A00E8BFCF /* Info.plist */,
+				E28764E12613AF9900E8BFCF /* NoteViewController.swift */,
+				E28764E42613AFA600E8BFCF /* EntryViewController.swift */,
+				E2FD74602613C012006F214C /* WelcomeViewController.swift */,
 			);
 			path = Notes_app;
 			sourceTree = "<group>";
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E28764E22613AF9900E8BFCF /* NoteViewController.swift in Sources */,
+				E28764E52613AFA600E8BFCF /* EntryViewController.swift in Sources */,
 				E28764D12613AF8800E8BFCF /* ViewController.swift in Sources */,
+				E2FD74612613C012006F214C /* WelcomeViewController.swift in Sources */,
 				E28764CD2613AF8800E8BFCF /* AppDelegate.swift in Sources */,
 				E28764CF2613AF8800E8BFCF /* SceneDelegate.swift in Sources */,
 			);
@@ -287,6 +299,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RUA6YB62DP;
 				INFOPLIST_FILE = Notes_app/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +318,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RUA6YB62DP;
 				INFOPLIST_FILE = Notes_app/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
