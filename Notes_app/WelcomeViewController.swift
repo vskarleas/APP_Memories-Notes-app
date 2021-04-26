@@ -31,7 +31,6 @@ class WelcomeViewController: UIViewController {
         
         
         //pageview controler variable set up
-        //An update on thsi code
         let titles = ["Welcome", "Apple Pencil", "Secure"]
         let descriptions = ["The memories app is a new way to keep", "If you are using an iPad, the Memories", "Your diary lives in your device."]
         let descript = ["you diary. It's your on-device diary", "app support all the scrible functions", "Nothing gets out of your device"]
